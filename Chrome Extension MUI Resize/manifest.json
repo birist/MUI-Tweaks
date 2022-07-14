@@ -1,0 +1,14 @@
+{
+  "name": "MUI Fullscreen Resizer",
+  "version": "0.1",
+  "manifest_version" : 2,
+  "description": "Resizes to fullscreen. 
+  email brian.tucker-ext@jci.com or brian.tucker@jci.com if there are any issues.",
+  "background" : {
+    "scripts" : ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "permissions": ["activeTab"]
+}
