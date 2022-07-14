@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+	<head>
+		<title>MUI Stay Logged In Script</title>
+		<script>
+			function ggclick(){
+			document.getElementById("tokenStatusDot").style = "background-color: Red;";
+			alert("test");
+			}
+		</script>
+		<style>
+			.dot {
+			  height: 10px;
+			  width: 10px;
+			  background-color: #bbb;
+			  border-radius: 50%;
+			  display: inline-block;
+			}
+			
+			#loginStatus, #tokenStatus {
+				font-family: Verdana;
+				font-size: small;
+				padding: 2px;
+				display: inline-block;
+			}
+			div {
+				padding-bottom: 2.5px;
+				padding-top: 2.5px;
+			}
+		</style>
+	<body>
+		<div>
+			<div id="loginStatus">
+				LOGIN STATUS: 
+			</div>
+			<span id="loginStatusDot" class="dot">
+			</span>
+		</div>
+		<div>
+			<div id="tokenStatus">
+				TOKEN STATUS: 
+			</div>
+			<span id="tokenStatusDot" class="dot">
+			</span>
+		</div>
+		<div class="inputDIV">
+			<input type="text">
+		</div>
+		<div class="inputDIV">
+			<input type="password">
+		</div>
+		<div>
+			<button onclick="ggclick()">Log In</button>
+		</div>
+	</body>
+</html>
+'
